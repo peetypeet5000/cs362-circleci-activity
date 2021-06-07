@@ -16,3 +16,8 @@ class TestCalc:
         assert calculator.mult(1, 10) == 10
         assert calculator.mult(-5, 5) == -25
         assert calculator.mult(.5, .5) == .25
+
+    def test_devision(self):
+        assert calculator.div(10, 1) == 10
+        assert calculator.div(15, 5) == 3
+        assert calculator.div(-10, 2) == -5
