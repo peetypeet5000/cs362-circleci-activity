@@ -11,3 +11,8 @@ class TestCalc:
         assert calculator.sub(1, 1) == 0
         assert calculator.sub(5, -5) == 10
         assert calculator.sub(10.5, 5.5) == 5
+
+    def test_multiplication(self):
+        assert calculator.mult(1, 10) == 10
+        assert calculator.mult(-5, 5) == -25
+        assert calculator.mult(.5, .5) == .25
